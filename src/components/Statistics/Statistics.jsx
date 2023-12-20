@@ -2,6 +2,7 @@ import css from './statistics.module.css';
 import PropTypes from 'prop-types';
 import getRandomHexColor from 'helpers/randomColor';
 
+
 const Statistics = ({ title, items }) => {
   const elements = items.map(({ id, label, percentage }) => (
     <li
@@ -28,7 +29,6 @@ const Statistics = ({ title, items }) => {
 };
 
 export default Statistics;
-
 
 
 Statistics.defaultProps = {
