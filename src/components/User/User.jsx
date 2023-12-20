@@ -1,8 +1,6 @@
 import css from './user.module.css';
 import PropTypes from 'prop-types';
 
-
-
 const User = ({ items }) => {
   return (
     <>
