@@ -6,9 +6,9 @@ import data from './data/data.json'
 
 export const App = () => {
   return (
-    <>
+    <main>
       <User items={user} />
       <Statistics title="UPLOAD STATS" items={data} />
-    </>
+    </main>
   );
 };
