@@ -22,17 +22,16 @@
 .online {
   height: 10px;
   width: 10px;
-  background-color: green;
   border-radius: 50%;
+  background-color: green;
 }
 
 .miss {
-  composes: online;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
   background-color: red;
 }
 .img {
   width: 50px;
-}
-
-.name {
 }
