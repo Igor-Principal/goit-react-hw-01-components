@@ -9,11 +9,7 @@ const FriendList = ({ items }) => {
       <h2 className={css.name}>{name}</h2>
     </li>
   ));
-  return (
-    <>
-      <ul className={css.list}>{elements}</ul>
-    </>
-  );
+  return <ul className={css.list}>{elements}</ul>;
 };
 
 export default FriendList;
