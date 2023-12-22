@@ -1,5 +1,6 @@
 import css from "./transactionHistory.module.css"
 
+
 const TransactionHistory = () => {
     return (
       <>
@@ -28,4 +29,5 @@ const TransactionHistory = () => {
       </>
     );
 }
+
 export default TransactionHistory;
