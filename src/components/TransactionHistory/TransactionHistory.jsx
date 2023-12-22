@@ -13,7 +13,7 @@ const TransactionHistory = ({ items }) => {
     <>
       <table className={css.transactionHistory}>
         <thead className={css.tableTitle}>
-          <tr className={css.titleRoad}>
+          <tr className={css.titleRow}>
             <th className={css.titleCell}>Type</th>
             <th className={css.titleCell}>Amount</th>
             <th className={css.titleCell}>Currency</th>
@@ -35,7 +35,7 @@ TransactionHistory.PropeTypes = {
   items: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.string.isRequired,
-      tupe: PropTypes.string,
+      type: PropTypes.string,
       amount: PropTypes.number,
       currency: PropTypes.string,
     })
