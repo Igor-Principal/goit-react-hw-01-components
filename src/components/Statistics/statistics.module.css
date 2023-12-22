@@ -1,0 +1,17 @@
+.statistics {
+  width: 400px;
+  margin: auto;
+}
+.title {
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.item {
+  width: 80px;
+  height: 40px;
+}
